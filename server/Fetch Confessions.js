@@ -29,7 +29,6 @@
 
   function getAllConfessions() {
     allConfessions = jsonDBManager.lookupByCriteria([], { dbMain: DIVISION })
-    console.log(allConfessions[82345])
     console.log("loaded")
     console.log(allConfessions.length + " Confessions in DB")
   }
